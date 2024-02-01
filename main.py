@@ -5,11 +5,11 @@ import numpy as np
 
 import json
 
-nisar = pickle.load(open('nisaran13.pkl', 'rb'))
-flood = pickle.load(open('floodran1.pkl', 'rb'))
+nisar = pickle.load(open('nisaran1.pkl', 'rb'))
+flood = pickle.load(open('flood2.pkl', 'rb'))
 earths = pickle.load(open('earth1.pkl', 'rb'))
-stormm = pickle.load(open('stromran1.pkl', 'rb'))
-tsunami = pickle.load(open('tsunamidt1.pkl', 'rb'))
+stormm = pickle.load(open('strom.pkl', 'rb'))
+tsunami = pickle.load(open('tsunami1.pkl', 'rb'))
 
 app = Flask(__name__)
 
