@@ -59,10 +59,10 @@ def predict1():
            'SiltStone': 28, 'Steatite': 29, 'Ochre': 30, 'Calcite': 31, 'Kota Stone': 32,
            'Copper': 33, 'Marble': 34, 'Igneous': 35, 'Weathered': 36, 'Mineral Rock': 37,
            'Weathered Rocks': 38, 'Laterite ': 39, 'Clay': 40, 'Silt': 41, 'Glacier ': 42,
-           'Metamorphoric': 43, 'Glacier Rock ': 44}
+           'Metamorphoric': 43, 'Glacier Rock ': 44};
     capab = {'Good': 1, 'Better': 2, 'Very Hard': 3, 'Hard': 4, 'very Hard': 3, 'Easy': 0, 'Best': 5,
-           'good': 1, 'Hard ': 4}
-    strtype = {'Bridge': 1, 'Dam': 2, 'Building': 3}
+           'good': 1, 'Hard ': 4};
+    strtype = {'Bridge': 1, 'Dam': 2, 'Building': 3};
     reg = {'Tropical ': 1, 'Semi-Arid': 2, 'Arid ': 3, 'River Valley': 4, 'Flood Plains': 5,
            'Indo Gangetic Plain': 6, 'Indo-Gangetic Plain': 7, 'Thar Desert': 8,
            'Northern Plain': 9, 'Deccan Plateau': 10, 'Malwa Plateau': 11,
@@ -78,7 +78,7 @@ def predict1():
            'Southern Gangetic Plain': 44, 'Chhattisgarh Plateau': 45, 'West Coast': 46,
            'Central Australia': 47, 'Southern Western US': 48, 'Nothern Africa': 49,
            'NorthEastern': 50, 'Northern Hemisphere': 51, 'Ganga Plain': 52,
-           'Eastern Peninsular': 53}
+           'Eastern Peninsular': 53};
     soil = {'Alfisols soil': 1, 'Alkaline Soil': 2, 'Alluvial Soil': 3, 'Arid Soil': 4,
            'Aridisol soil': 5, 'Azonal Soil': 6, 'Black Cotton Soil': 7, 'Brown Soil': 8,
            'Chalk Soil': 9, 'Chernozems Soil': 10, 'Chestnut Soil': 11, 'Clay Soil': 12,
@@ -88,7 +88,7 @@ def predict1():
            'Mollisols Soil': 23, 'Mountainous soil': 24, 'Oxisol soil': 25, 'Peat Soil': 26,
            'Podsols Soil': 27, 'Prairie Soil': 28, 'Red Soil': 29, 'Saline soil': 30,
            'Sandy loam': 31, 'Semi Arid soil': 32, 'Snowfields': 33, 'Spodosol Soil': 34,
-           'Tundra soil': 35, 'Ultisol soil': 36, 'Yellow soil': 37, 'Zonal Soil': 38}
+           'Tundra soil': 35, 'Ultisol soil': 36, 'Yellow soil': 37, 'Zonal Soil': 38};
     Latitude = request.form.get('Latitude')
     Longitude = request.form.get('Longitude')
     Soil_Type = request.form.get('Soil Type')
