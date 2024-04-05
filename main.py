@@ -20,7 +20,7 @@ rock = {'Gneiss': 11, 'Schist': 12, 'Chalk': 13, 'Phonolite': 14, 'Syenite': 15,
            'Metamorphoric': 43, 'Glacier Rock ': 44};
 capab = {'Good': 1, 'Better': 2, 'Very Hard': 3, 'Hard': 4, 'very Hard': 3, 'Easy': 0, 'Best': 5,
            'good': 1, 'Hard ': 4};
-strtype = {'Bridge': 1, 'Dam': 2, 'Building': 3};
+strtype = {'Bridge': 1, 'Dam': 2, 'Building': 3, 'House':4};
 reg = {'Tropical ': 1, 'Semi-Arid': 2, 'Arid ': 3, 'River Valley': 4, 'Flood Plains': 5,
            'Indo Gangetic Plain': 6, 'Indo-Gangetic Plain': 7, 'Thar Desert': 8,
            'Northern Plain': 9, 'Deccan Plateau': 10, 'Malwa Plateau': 11,
